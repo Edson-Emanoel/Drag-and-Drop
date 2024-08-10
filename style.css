@@ -47,7 +47,11 @@ header > h1 {
 }
 
 .column__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
     padding: 4px;
+    height: 100%;
 }
 
 .card {
@@ -61,4 +65,9 @@ header > h1 {
     font-size: .9rem;
     font-weight: 500;
     color: #4D5C76;
+}
+
+.column__highlight {
+    background-color: #DEEBFF;
+    border: 2px solid #2482FF;
 }
